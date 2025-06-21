@@ -22,7 +22,10 @@ extra["springAiVersion"] = "1.0.0"
 dependencies {
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 
+	runtimeOnly("com.h2database:h2")
+
 	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("org.springframework.boot:spring-boot-starter-jdbc")
 	implementation("org.springframework.ai:spring-ai-starter-model-ollama")
 
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
