@@ -9,5 +9,4 @@ public class SqlAiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SqlAiApplication.class, args);
 	}
-
 }
